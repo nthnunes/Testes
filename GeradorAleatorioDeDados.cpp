@@ -9,7 +9,6 @@ int main(){
 
   cout<<"*******************************************************"<<endl;
   cout << "         Gerador de Informacoes Aleatorias" << endl;
-  cout << "                Chupa meu peh Fadel" << endl;
   cout<<"\n*******************************************************"<<endl;
 
   std::cout << "\n\nQual o numero de casos a serem gerados: ";
