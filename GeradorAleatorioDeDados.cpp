@@ -9,6 +9,7 @@ int main(){
 
   cout<<"*******************************************************"<<endl;
   cout << "         Gerador de Informacoes Aleatorias" << endl;
+  cout << "                Chupa meu peh Fadel" << endl;
   cout<<"\n*******************************************************"<<endl;
 
   std::cout << "\n\nQual o numero de casos a serem gerados: ";
@@ -84,7 +85,7 @@ int main(){
     if(praticaEsporte == 1){
       std::cout << "Pratica Atividade Fisica: Sim\n";
 
-      tipoEsporte = rand() % 6;
+      tipoEsporte = rand() % 7;
       if(tipoEsporte == 1){
         std::cout << "Qual: Academia\n";
       }
@@ -99,6 +100,9 @@ int main(){
       }
       else if(tipoEsporte == 5){
         std::cout << "Qual: Pilates\n";
+      }
+      else if(tipoEsporte == 6){
+        std::cout << "Qual: Caminhada\n";
       }
       else if(tipoEsporte == 0){
         std::cout << "Qual: Basketball\n";
