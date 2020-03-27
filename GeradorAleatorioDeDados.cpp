@@ -9,7 +9,6 @@ int main(){
 
   cout<<"*******************************************************"<<endl;
   cout << "         Gerador de Informacoes Aleatorias" << endl;
-  cout << "                Chupa meu peh Fadel" << endl;
   cout<<"\n*******************************************************"<<endl;
 
   std::cout << "\n\nQual o numero de casos a serem gerados: ";
@@ -165,7 +164,7 @@ int main(){
 
   std::cout << "\n\nDeseja gerar mais pessoas? [S/n]\n";
   cin >> x;
-  if(x == 's'){
+  if(x == 's' || x == 'S'){
     std::cout << "\n\n";
     return main();
   }
